@@ -1,0 +1,62 @@
+
+@import url('https://fonts.cdnfonts.com/css/helvetica-neue-5');
+
+
+@import url("./reset.css");
+@import url("sections/header.css");
+@import url("sections/main.css");
+@import url("sections/service.css");
+@import url('sections/advantages.css');
+@import url('sections/options.css');
+@import url('sections/banner.css');
+@import url('sections/tariff.css');
+@import url('sections/connect.css');
+@import url('sections/facilities.css');
+@import url('sections/partners.css');
+@import url('sections/questions.css');
+@import url('sections/form.css');
+@import url('sections/documents.css');
+@import url('sections/footer.css');
+
+
+
+
+@font-face {
+	font-family: "HelveticaNeueCyr_Bold";
+	src: url("../fonts/ofont.ru_helvetica_neue_1-webfont.woff") format("woff"),
+	url("../fonts/ofont.ru_helvetica_neue_1-webfont.woff2") format("woff2");
+}
+@font-face {
+	font-family: "HelveticaNeueCyr_Medium";
+	src: url("../fonts/ofont.ru_helvetica_neue-webfont.wofff") format("woff"),
+	url("../fonts/ofont.ru_helvetica_neue-webfont.woff2") format("woff2");
+}
+
+:root {
+	--font-second:'Roboto Slab', serif;
+   --color-red: #E30613;
+	--text-primary: #222;
+	--bsb-text-color: #111;
+}
+
+
+.gradient__bg{
+	background: rgba(220, 16, 23, 1);
+	background: -o-linear-gradient(270deg,rgba(220, 16, 23, 1) 0%,rgba(183, 11, 17, 1) 100%);
+	background: -moz-linear-gradient(270deg,rgba(220, 16, 23, 1) 0%,rgba(183, 11, 17, 1) 100%);
+	background: -webkit-linear-gradient(270deg,rgba(220, 16, 23, 1) 0%,rgba(183, 11, 17, 1) 100%);
+	background: linear-gradient(180deg,rgba(220, 16, 23, 1) 0%,rgba(183, 11, 17, 1) 100%);
+}
+
+.wrapper {
+	min-height: 100%;
+   display: flex;
+   flex-direction: column;
+   overflow: clip;
+}
+/*--------------------------------------------*/
+[class*="__container"]{
+	max-width: 1230px;
+	padding: 0 15px 0 15px;
+	margin: 0 auto;
+}

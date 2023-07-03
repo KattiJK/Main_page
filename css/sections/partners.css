@@ -1,0 +1,53 @@
+.partners {
+	margin-top: 80px;
+	padding-bottom: 56px;
+}
+.partners__container {
+
+}
+.partners__content {
+	display: flex;
+	align-items: center;
+	justify-content: flex-start;
+	flex-wrap: wrap;
+	row-gap: 25px;
+}
+.partners__content-item {
+	border-radius: 20px;
+	background: #FFF;
+	box-shadow: 0px 2px 15px 0px rgba(0, 0, 0, 0.10);
+	margin-right: 24px;
+	width: 180px;
+	height: 100px;
+	align-items: center;
+	display: flex;
+	justify-content: center;
+}
+
+.partners__title {
+	text-align-last: left;
+}
+
+.item__img-mastercard {
+	width: 62px;
+   height: 48px;
+}
+
+.item__img-MainVisaBlue {
+	width: 90px;
+	height: 48px;
+}
+.item__img-belcard {
+	width: 62px;
+	height: 62px;
+}
+.item__img-mir {
+	width: 139px;
+	height: 41px;
+}
+
+@media screen and (max-width: 659px){
+	.partners__content{
+		flex-flow: column wrap;
+	}
+}
